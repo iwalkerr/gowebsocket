@@ -1,0 +1,15 @@
+app:
+  logFile: log/gin.log
+  httpPort: 8080
+  webSocketPort: 8090
+  rpcPort: 9000
+  httpUrl: im.zskj.com
+  webSocketUrl: im.zskj.com
+
+
+redis:
+  addr: ":6379"
+  password: "Dryg1!2@3#"
+  DB: 1
+  poolSize: 30
+  minIdleConns: 30
